@@ -34,7 +34,7 @@
     $_SESSION ["Name"] = "job";
     $_SESSION ["Age"] = 32;
 
-    echo "Hello " . $_SESSION["Name"];
+    echo "Hello " . $_SESSION["Name"] . "<br>";
 
     echo "test";
 
