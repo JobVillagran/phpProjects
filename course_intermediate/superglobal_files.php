@@ -11,7 +11,7 @@
     <!-- tag: enctype="multipart/form-data"
     Specifices how the form data should be encoded -->
 
-    <form action="site.php" method="post" enctype="multipart/form-data">
+    <form action="superglobal_files.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
         <button type="submit">Submit</button>
     </form>
