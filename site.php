@@ -11,7 +11,7 @@
     <!-- tag: enctype="multipart/form-data"
     Specifices how the form data should be encoded -->
 
-    <form action="site.php" method="post" enctype="multipart/form-data">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
         <button type="submit" name="submit">Submit</button>
     </form>
@@ -29,7 +29,7 @@
     // $_SESSION
     // $FILES       // 
 
-    // How to upload files:
+    /*// How to upload files:
     // 1. Upload it to the root
     // 2. Directly to the database
 
@@ -40,7 +40,7 @@
     echo $tmp_location = $_FILES['file']['tmp_name'] . "<br>";
 
     // Print an error if the file is not able to load
-    echo $error = $_FILES['file']['error'] . "<br>";
+    echo $error = $_FILES['file']['error'] . "<br>";*/
 
 
     ?>

@@ -11,7 +11,7 @@
     <!-- tag: enctype="multipart/form-data"
     Specifices how the form data should be encoded -->
 
-    <form action="superglobal_files.php" method="post" enctype="multipart/form-data">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
         <button type="submit">Submit</button>
     </form>
@@ -27,7 +27,11 @@
     // $_SERVER
     // $_COOKIE
     // $_SESSION
-    // $FILES       // 
+    // $FILES       // THIS FILE IS CONNECTED WITH THE upload.php file.
+                    // The PHP below is NOT necessary, so that's why is commented.
+
+    /*
+
 
     // How to upload files:
     // 1. Upload it to the root
@@ -42,6 +46,7 @@
     // Print an error if the file is not able to load
     echo $error = $_FILES['file']['error'] . "<br>";
 
+    */
 
     ?>
 
