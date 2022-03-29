@@ -36,6 +36,8 @@
 
     echo "Hello " . $_SESSION["Name"];
 
+    echo "test";
+
 
 
     ?>
