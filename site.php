@@ -8,40 +8,13 @@
 
 <body>
 
-    <!-- tag: enctype="multipart/form-data"
-    Specifices how the form data should be encoded -->
-
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <button type="submit" name="submit">Submit</button>
-    </form>
-
-
     <?php
 
-    //SUPERGLOBALS:
+    $filePath = "uploads/file.txt";
 
-    // GLOBALS
-    // $_POST
-    // $_GET
-    // $_SERVER
-    // $_COOKIE
-    // $_SESSION
-    // $FILES       // 
+    $output = file_get_contents($filePath);     //param1: files path
 
-    /*// How to upload files:
-    // 1. Upload it to the root
-    // 2. Directly to the database
-
-    echo $name = $_FILES['file']['name'] . "<br>";  //param 1: type on the form. param 2: it's the NAME OF THE TAG on the form:  <input type="file" name="file">
-    echo $name = $_FILES['file']['type'] . "<br>";
-
-    // check the location of the file
-    echo $tmp_location = $_FILES['file']['tmp_name'] . "<br>";
-
-    // Print an error if the file is not able to load
-    echo $error = $_FILES['file']['error'] . "<br>";*/
-
+    echo $output . "<br>";
 
     ?>
 
