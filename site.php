@@ -24,8 +24,9 @@
 
     <?php
     require_once 'database.php';
+    require_once '';
 
-    $sql = "SELECT * FROM users";               // We build our query
+    $sql = "SELECT * FROM users WHERE id = 1";               // We build our query
     $result = mysqli_query($conn, $sql);        // This fuction can tell us if the reqry $sql can be performed. param1: variable on the database.php file. param2: the variable that we want to use.
     $rowCount = mysqli_num_rows($result);       // we created this variable to make sure we are getting something printed out.
 
