@@ -10,7 +10,7 @@
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="password" placeholder="Password">
         <input type="password" name="confirmPassword" placeholder=" Confirm Password">
-        <button type="submit">REGISTER</button>
+        <button type="submit" name="submit">REGISTER</button>
     </form>
 </div>
 
