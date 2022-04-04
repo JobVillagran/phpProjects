@@ -11,7 +11,7 @@
 
         if(empty($username) || empty($password) || empty($confirmPass)) {
             header("Location: ../register.php?error=emptyfields&username="
-            . $username);           // With this addition of emptyfiends&username, the user doesn't have to re enter the fields again.
+            . $username);      https://www.linkedin.com/in/jobvillagran     // With this addition of emptyfiends&username, the user doesn't have to re enter the fields again.
         }
     }
 ?>
